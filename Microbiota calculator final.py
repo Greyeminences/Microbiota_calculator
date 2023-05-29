@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import math
 
 price = input("Is the price of the products the same [yes/no]: ")
