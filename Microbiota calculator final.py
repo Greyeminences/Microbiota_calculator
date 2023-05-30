@@ -13,7 +13,7 @@ if price == "yes":
     
     print("Uploded prices as follow:")
     for index in list(range(len(product_name))):
-        print(product_name[index], "=", product_price[index], "PLN, capacity (", product_capacity[index], "samples )")
+        print(product_name[index], "=", product_price[index], "PLN (capacity", product_capacity[index], "samples)")
 
     samples_number = int(input("How many samples you want to extract: "))
   
